@@ -1,0 +1,17 @@
+{
+  "name": "campus-sports-booking",
+  "version": "1.0.0",
+  "description": "Campus Sports Facility & Equipment Booking System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:concurrency": "node test_concurrency.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.2.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
